@@ -26,9 +26,9 @@ var secureServer = https.createServer({
 	key: fs.readFileSync(__dirname + '/ssl.key'),
 	cert: fs.readFileSync(__dirname + '/ssl.crt')
 }, app).listen(443, function () {
-	console.log('Smart IoT Platform Web Application - HTTPS on ' + secureServer.address().port);
+	console.log('BD3 Admission Application - HTTPS on ' + secureServer.address().port);
 });
 
 var insecureServer = http.createServer(app).listen(80, function() {
-	console.log('Smart IoT Platform Web Application - HTTP on ' + insecureServer.address().port);
+	console.log('BD3 Admission Application - HTTP on ' + insecureServer.address().port);
 })
