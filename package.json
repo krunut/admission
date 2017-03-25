@@ -1,0 +1,27 @@
+{
+  "name": "admission",
+  "version": "1.0.0",
+  "description": "Bodin3 Admission System",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wisit Wongchaianukul",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+ 		"body-parser": "*",
+		"cookie-parser": "*",
+		"passport-local": "*",
+		"passport-local-mongoose": "*",
+		"serve-favicon": "*",
+		"express-session": "*",
+		"ejs": "*",
+		"mongoose": "*",
+		"passport": "*",
+		"nodemailer": "*",
+		"crypto": "*",
+		"aws-sdk": "*",
+		"multer": "*"
+		}
+}
